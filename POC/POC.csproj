@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="FreshMvvm" Version="3.0.0" />
+    <PackageReference Include="Realm" Version="3.4.0" />
+    <PackageReference Include="Realm.Database" Version="3.4.0" />
+    <PackageReference Include="Realm.DataBinding" Version="1.2.0" />
+    <PackageReference Include="Fody" Version="3.3.5">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="PropertyChanged.Fody" Version="2.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Home\" />
+    <Folder Include="Detail\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Base\" />
+    <Folder Include="Core\Controls\" />
+    <Folder Include="Home\Cell\" />
+    <Folder Include="Models\" />
+    <Folder Include="DataBase\" />
+  </ItemGroup>
+</Project>
